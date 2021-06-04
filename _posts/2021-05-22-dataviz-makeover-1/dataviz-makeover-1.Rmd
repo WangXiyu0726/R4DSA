@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # 1.0	 Critique of Visualization#
 The original visualization can be seen below.  
-![Figure 1](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture1.jpg)
+![Figure 1](img/Picture1.jpg)
 
 ## 1.1 Clarity
 * Chart title is vague – The title “Merchandise Trade of Top Six Trading Countries” does not reflect that the chart compares the top six countries in terms of import and export. 
@@ -50,36 +50,36 @@ The horizonal axis of the chart is the year (2019-2020), and the vertical axis i
 
 The chart uses six different colors to represent six countries/regions and uses different color saturations to distinguish three indicator variables, which enable the users to perform diversified combinations under the circumstance of the given months or a month period, such as comparing the import indicators of multiple selected countries, comparing multiple indicators of specified country.
 In addition, the user can also select a specific month or month range. The user can select January and December as a month range to obtain a polyline of annual changes. Users can also choose March, June, September, and December as the indicators at the end of each quarter, so that the corresponding four points will be marked on the polyline. The upper right corner of all polylines will show the growth rate or decline rate of the selected month range.  
-![Figure 2](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture2.jpg)
+![Figure 2](img/Picture2.jpg)
 
 # 3.0 Proposed Visualization
 Please view the interactive visualization on Tableau Public [here](https://public.tableau.com/app/profile/wang.xiyu/viz/Book2_16223555629660/Sheet1).
 
 # 4.0 Step-by-step Guide
 Import Data and combine two tables.  
-![Figure 3](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture3.jpg)  
+![Figure 3](img/Picture3.jpg)  
 Remove the redundant rows and columns. Rename table and headers.  
-![Figure 4](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture4.jpg)  
+![Figure 4](img/Picture4.jpg)  
 Change the data type of the trade volume into number.  
-![Figure 5](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture5.jpg)  
+![Figure 5](img/Picture5.jpg)  
 Drug **Measure Values** to the Column tab, and drug **Measure Name** and **Country/Region** to the Rows tab. Add all months with **SUM** function into measure values.  
-![Figure 6](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture6.jpg)  
+![Figure 6](img/Picture6.jpg)  
 Click view data in Tableau and export two tables of **Import** and **Export**.  
-![Figure 7](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture7.jpg)  
+![Figure 7](img/Picture7.jpg)  
 Combine these two tables and insert a column named Category on the right side of the combined table. Import the cleaned data into Tableau and change the data type as shown.  
-![Figure 8](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture8.jpg)  
+![Figure 8](img/Picture8.jpg)  
 Add **Category**, **YEAR(Date)**, **MONTH(Date)** to the Column tab and **SUM(Trade Volume)** to the Rows tab.  
-![Figure 9](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture9.jpg)  
+![Figure 9](img/Picture9.jpg)  
 Add **Category**, **YEAR(Date)**, **MONTH(Date)**, **Country/Region** to Filter and show them in the right panel.  
-![Figure 10](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture10.jpg)  
+![Figure 10](img/Picture10.jpg)  
 Add **Category** to the Colour option to differentiate the performance of the Export Volume and Import Volume.  
-![Figure 11](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture11.jpg)  
+![Figure 11](img/Picture11.jpg)  
 Add another copy of **SUM(Trade Volume)** and change it to dual axis.  
-![Figure 12](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture12.jpg)  
+![Figure 12](img/Picture12.jpg)  
 Right click on the right Y-axis, select Synchronize Axis and deselect Show Header.  
-![Figure 13](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture13.jpg)  
+![Figure 13](img/Picture13.jpg)  
 Change panel from Automatic to Circle and choose an appropriate size for the mark.  
-![Figure 14](C:/Users/adminq/Desktop/Visual Analysis/DataViz Makeover/DataViz Makeover1/img/Picture14.jpg)  
+![Figure 14](img/Picture14.jpg)  
  
 # 5.0 Derived Insights
 * During these two years, Hong Kong’s exports were significantly more than imports, while Taiwan’s was the opposite.
