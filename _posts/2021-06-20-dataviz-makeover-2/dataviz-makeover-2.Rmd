@@ -44,9 +44,10 @@ The original visualization can be seen below.
 This figure corrects the problems in the original figure, such as the problem of ambiguous titles, labels, and variable units. This figure removes the overall background color and the background colors of net importer and net exporter, and retains the diversified colors assigned to different countries for distinction. In addition, it omits the note below the original image and simplifies the marked icon, using the tooltip instead to provide more detailed content.  
 * Chart 1 is the Motion Chart of Top 10 Trade Volume Market, which provides detailed data of each market at various time points, including import volume, export volume, total trade volume and ranking. Besides, it can also show users the dynamic growth orbit of each country from 2011 to 2020.  
 * Chart 2 is the Interactive Bubble Plot of Top 10 Trade Volume Market, which shows the overall trade volume of each market within the time range of 2011 to 2020 by connecting the line chart of sheet 3. Users can obtain the line chart of the import and export volume of the market during the decade by placing the mouse on the dot.  
+![](img/Picture52.jpg){width=50%}  
 
 # 3.0 Proposed Visualization#
-Please view the interactive visualization on Tableau Public here.
+Please view the interactive visualization on Tableau Public [here](https://public.tableau.com/app/profile/wang.xiyu/viz/DataVizMakeover2_16241216210990/Dashboard1).  
 
 # 4.0 Step-by-step Guide#
 ![](img/Picture2.jpg){width=30%}  
